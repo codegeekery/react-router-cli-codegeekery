@@ -1,0 +1,39 @@
+# Ignorar node_modules (no es necesario subirlo)
+node_modules/
+
+# Ignorar el archivo de bloqueo (no es necesario subirlo)
+package-lock.json
+
+# Ignorar archivos de configuración local o de desarrollo
+.env
+.env.local
+.env.development
+.env.test
+
+# Ignorar archivos de registro y temporales
+*.log
+*.tmp
+*.swp
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de IDE o editor
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignorar archivos de pruebas (si los tienes)
+test/
+tests/
+__tests__/
+*.spec.js
+*.test.js
+
+# Ignorar archivos de configuración de Git
+.git/
+.gitignore
+
+# Ignorar archivos de configuración de npm
+.npmrc

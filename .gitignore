@@ -1,0 +1,52 @@
+node_modules
+# React Router
+/.react-router/
+
+#dist
+/dist
+
+
+# Node.js
+node_modules
+
+# Remix
+/build/
+/public/build/
+/.prisma/client/
+remix.config.js
+
+# Environment Variables
+*.env
+*.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+*.gz
+
+# Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Test coverage
+coverage/
+
+# Misc
+*.tgz
+*.bak
+*.backup
+*.orig
+*.rej
+*.patch
