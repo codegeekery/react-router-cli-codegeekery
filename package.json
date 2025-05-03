@@ -9,6 +9,10 @@
   "bin": {
     "react-router-cli": "dist/bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codegeekery/react-router-cli-codegeekery.git"
+  },
   "scripts": {
     "build": "tsc",
     "release:patch": "npm run build && npm version patch && npm publish",
